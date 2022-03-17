@@ -10,7 +10,7 @@ It is a website for a fictitious, upcoming Health conference in Africa. Visit th
 
 ## Setup
 Simply fork this project and it should be ready for you to edit as you see fit.
-In case you run into any errors please raise an [issue](https://github.com/ekenecf/Module-one-capstone/issues).
+In case you run into any errors please raise an [issue](https://github.com/ekenecf/ekenemicroverse.github.io/issues).
 
 ## Built With
 - HTML
@@ -27,7 +27,7 @@ VSCode or any other equivalent code editor
 Node package manager
 
 # Live Demo:
-[Live Demo Link](https://ekenecf.github.io)
+[Live Demo Link](https://github.com/ekenecf/ekenemicroverse.github.io)
 
 👤 **Author1**
 - [@githubhandle](https://github.com/ekenecf)
