@@ -603,10 +603,8 @@ p.summary2 {
   }
 
   h1 {
-    font-family: "lato", sans-serif;
     font-size: 63px;
     font-weight: 900;
-    width: 100%;
   }
 
   p.summary {
@@ -664,27 +662,18 @@ p.summary2 {
 
   .date {
     font-size: 40px;
-    font-weight: 900;
-    color: rgb(87 82 82);
     padding-top: 5%;
     padding-left: 10%;
   }
 
   .venue {
-    font-family: "lato", sans-serif;
-    color: rgb(87 82 82);
-    padding-top: 1%;
-    font-weight: 700;
     padding-left: 10%;
     font-size: 20px;
   }
 
   .second-section {
-    display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-row-gap: 12px;
-    background-image: url(./Images/program-bg.png);
-    padding-bottom: 11%;
     padding-inline: 10%;
     gap: 10px;
   }
@@ -748,7 +737,7 @@ p.summary2 {
 
   .program-detail {
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 5;
     display: inline-block;
     margin-top: 20%;
     margin-left: 20%;
