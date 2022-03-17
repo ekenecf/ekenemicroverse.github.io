@@ -1,12 +1,31 @@
 {
-  "name": "first-project",
+  "name": "ekenemicroverse.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "<p align-item = \"center\">Mobile view<p>\r <img src = \"./Images/snip2.png\">\r <p align-item = \"center\">Desktop View<p>\r <img src = \"./Images/snip.png\">",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekenecf/ekenemicroverse.github.io.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekenecf/ekenemicroverse.github.io/issues"
+  },
+  "homepage": "https://github.com/ekenecf/ekenemicroverse.github.io#readme",
+  "keywords": [],
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.4",
+    "hint": "^6.1.10",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
 }
