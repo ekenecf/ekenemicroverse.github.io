@@ -526,7 +526,7 @@ p.summary2 {
 }
 
 .pastEvents {
-  display: block;
+  display: flex;
 }
 
 .conference-year {
