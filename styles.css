@@ -267,16 +267,63 @@ p.summary {
   left: 10px;
 }
 
-#speaker-img img{
-  position: absolute;
-  width: 100px;
-  height: 100px;
-}
-
 .sub-third-section img {
   width: 70px;
   height: 70px;
   object-fit: cover;
+}
+
+.img-list img {
+  width: 80%;
+  object-fit: cover;
+}
+
+.footer2 img {
+  width: 30%;
+}
+
+.second-section2 img {
+  border: 2px solid #f3f3f3;
+  margin-left: 5%;
+  width: 90%;
+  padding-bottom: 5%;
+  padding-top: 3%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  padding-inline: 5%;
+}
+
+.Third-section2-img1 img {
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 5%;
+  opacity: 0.69;
+}
+
+.Third-section2-img2 img {
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 5%;
+  opacity: 0.69;
+  height: 100%;
+}
+
+.img-list1 li img {
+  width: 75%;
+}
+
+.Third-section2-img1 img:hover {
+  opacity: 1;
+}
+
+.Third-section2-img2 img:hover {
+  opacity: 1;
+}
+
+#speaker-img img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
 }
 
 .speaker-detail {
@@ -338,11 +385,6 @@ footer {
   background: #444141;
 }
 
-.img-list img {
-  width: 80%;
-  object-fit: cover;
-}
-
 .partner-img h2 {
   font-weight: 500;
   font-size: 24px;
@@ -371,10 +413,6 @@ footer {
   padding-bottom: 5%;
   padding-inline: 3%;
   gap: 6%;
-}
-
-.footer2 img {
-  width: 30%;
 }
 
 p.summary2 {
@@ -443,17 +481,6 @@ p.summary2 {
   color: rgb(87 82 82);
 }
 
-.second-section2 img {
-  border: 2px solid #f3f3f3;
-  margin-left: 5%;
-  width: 90%;
-  padding-bottom: 5%;
-  padding-top: 3%;
-  margin-top: 8%;
-  margin-bottom: 5%;
-  padding-inline: 5%;
-}
-
 .Third-section2 {
   background: #fff;
   padding-top: 8%;
@@ -491,29 +518,6 @@ p.summary2 {
 
 .Third-section2-img2 {
   position: relative;
-}
-
-.Third-section2-img1 img {
-  width: 80%;
-  margin-left: 10%;
-  padding-bottom: 5%;
-  opacity: 0.69;
-}
-
-.Third-section2-img2 img {
-  width: 80%;
-  margin-left: 10%;
-  padding-bottom: 5%;
-  opacity: 0.69;
-  height: 100%;
-}
-
-.Third-section2-img1 img:hover {
-  opacity: 1;
-}
-
-.Third-section2-img2 img:hover {
-  opacity: 1;
 }
 
 .pastEvents {
@@ -558,10 +562,6 @@ p.summary2 {
 .img-list1 li {
   list-style: none;
   width: 100%;
-}
-
-.img-list1 li img {
-  width: 75%;
 }
 
 .footer21 img {
