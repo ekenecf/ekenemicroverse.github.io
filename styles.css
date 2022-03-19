@@ -215,6 +215,10 @@ p.summary {
   font-size: 17px;
 }
 
+button {
+  border: none;
+}
+
 .first-button {
   width: 80%;
   height: 60px;
@@ -223,6 +227,7 @@ p.summary {
   color: #fff;
   font-size: 18px;
   margin-top: 5%;
+  border: none;
 }
 
 .Third-section {
@@ -526,7 +531,7 @@ p.summary2 {
 }
 
 .pastEvents {
-  display: flex;
+  display: block;
 }
 
 .conference-year {
@@ -793,6 +798,10 @@ p.summary2 {
     font-size: 12px;
     line-height: 1.5;
     text-align: center;
+  }
+
+  .pastEvents {
+    display: flex;
   }
 
   .first-button {
