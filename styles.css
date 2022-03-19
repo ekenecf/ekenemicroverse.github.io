@@ -6,9 +6,12 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "lato", sans-serif;
+}
+
 .maincontainer {
   background-image: url(./Images/hero-background.png);
-  font-family: 'Lato', sans-serif;
   padding-bottom: 10%;
 }
 
@@ -26,6 +29,7 @@ ul.inner-topmost {
   justify-content: center;
   width: 100%;
   position: fixed;
+  z-index: 1;
 }
 
 .buttons {
@@ -84,7 +88,6 @@ ul.inner-topmost {
 .nav-links li {
   list-style: none;
   font-size: 30px;
-  font-family: "lato", sans-serif;
 }
 
 .Hero-section {
@@ -93,7 +96,6 @@ ul.inner-topmost {
 }
 
 .Hero-section h2 {
-  font-family: "lato", sans-serif;
   color: #ec5242;
   font-size: 28px;
   font-weight: 500;
@@ -116,7 +118,6 @@ ul.inner-topmost {
 }
 
 h1 {
-  font-family: "lato", sans-serif;
   font-size: 32px;
   font-weight: 900;
 }
@@ -133,7 +134,6 @@ h1 {
 }
 
 p.summary {
-  font-family: "lato", sans-serif;
   color: rgb(87 82 82);
   padding-inline: 5%;
   padding-top: 8%;
@@ -149,7 +149,6 @@ p.summary {
 }
 
 .venue {
-  font-family: "lato", sans-serif;
   color: rgb(87 82 82);
   padding-inline: 5%;
   padding-top: 1%;
@@ -159,7 +158,6 @@ p.summary {
 .second-section {
   display: grid;
   grid-template-columns: auto;
-  grid-row-gap: 12px;
   background-image: url(./Images/program-bg.png);
   padding-bottom: 11%;
 }
@@ -172,7 +170,6 @@ p.summary {
 }
 
 .main-program p {
-  font-family: "lato", sans-serif;
   text-align: center;
   margin-bottom: 3%;
   font-size: 20px;
@@ -197,7 +194,7 @@ p.summary {
   padding-inline: 5%;
   margin-left: 5%;
   gap: 3%;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 
 .sub-second-section img {
@@ -207,7 +204,6 @@ p.summary {
 }
 
 .sub-second-section p {
-  font-family: "lato", sans-serif;
   color: white;
   font-size: 12px;
   line-height: 1.5;
@@ -217,7 +213,6 @@ p.summary {
 .sub-second-section h3 {
   color: #ec5242;
   font-size: 17px;
-  font-family: "lato", sans-serif;
 }
 
 .first-button {
@@ -227,6 +222,7 @@ p.summary {
   background-color: #ec5242;
   color: #fff;
   font-size: 18px;
+  margin-top: 5%;
 }
 
 .Third-section {
@@ -236,7 +232,6 @@ p.summary {
 }
 
 .Third-section h2 {
-  font-family: "lato", sans-serif;
   font-weight: 600;
   font-size: 24px;
   text-align: center;
@@ -252,20 +247,47 @@ p.summary {
   gap: 15px;
 }
 
-.sub-third-section img {
-  width: 30%;
-  height: 99%;
+.spkr {
+  background-image: url(./Images/checkbox.jpg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  z-index: -1;
+}
+
+#speaker-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
+  bottom: 0;
+  top: 10px;
+  position: relative;
+  z-index: -1;
+  left: 10px;
+}
+
+#speaker-img img{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.sub-third-section img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.speaker-detail {
+  display: flex;
 }
 
 .speakers {
   display: flex;
   flex-direction: column;
-  padding-inline: 3%;
-}
-
-.speaker-detail {
-  display: flex;
+  padding-left: 6%;
+  padding-right: 3%;
 }
 
 .speaker-header {
@@ -291,10 +313,6 @@ small {
 .speakers hr {
   width: 10%;
   border: 1px solid #c8ccd1;
-}
-
-.speakers h3 {
-  font-family: "lato", sans-serif;
 }
 
 .speakers p {
@@ -326,7 +344,6 @@ footer {
 }
 
 .partner-img h2 {
-  font-family: "lato", sans-serif;
   font-weight: 500;
   font-size: 24px;
   text-align: center;
@@ -362,7 +379,6 @@ footer {
 
 p.summary2 {
   background: #fbfbfb;
-  font-family: "lato", sans-serif;
   color: rgb(87 82 82);
   padding-inline: 5%;
   padding-top: 5%;
@@ -380,7 +396,6 @@ p.summary2 {
 }
 
 .Hero-section2 h2 {
-  font-family: "lato", sans-serif;
   color: #ec5242;
   font-size: 28px;
   font-weight: 500;
@@ -470,21 +485,45 @@ p.summary2 {
   margin-bottom: 10%;
 }
 
-.Third-section2-img {
+.Third-section2-img1 {
   position: relative;
 }
 
-.Third-section2-img img {
+.Third-section2-img2 {
+  position: relative;
+}
+
+.Third-section2-img1 img {
   width: 80%;
   margin-left: 10%;
   padding-bottom: 5%;
   opacity: 0.69;
 }
 
+.Third-section2-img2 img {
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 5%;
+  opacity: 0.69;
+  height: 100%;
+}
+
+.Third-section2-img1 img:hover {
+  opacity: 1;
+}
+
+.Third-section2-img2 img:hover {
+  opacity: 1;
+}
+
+.pastEvents {
+  display: block;
+}
+
 .conference-year {
   position: absolute;
-  left: 45%;
-  top: 15%;
+  left: 35%;
+  top: 9%;
   font-size: 30px;
   color: #fff;
   font-weight: 700;
@@ -501,10 +540,42 @@ p.summary2 {
   width: 80%;
 }
 
+.footer21 {
+  display: flex;
+  background-color: #fff;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  gap: 3%;
+  padding-left: 8%;
+}
+
+.img-list1 {
+  display: flex;
+  align-items: center;
+  padding-inline: 10%;
+}
+
+.img-list1 li {
+  list-style: none;
+  width: 100%;
+}
+
+.img-list1 li img {
+  width: 75%;
+}
+
+.footer21 img {
+  width: 40%;
+  height: 40px;
+}
+
+.footer21 p {
+  color: #000;
+}
+
 @media screen and (min-width: 768px) {
   .maincontainer {
     background-image: url(./Images/hero-background.png);
-    font-family: 'Lato', sans-serif;
   }
 
   .nav-header {
@@ -596,7 +667,6 @@ p.summary2 {
   }
 
   .Hero-section h2 {
-    font-family: "lato", sans-serif;
     color: #ec5242;
     font-size: 43px;
     font-weight: 500;
@@ -608,7 +678,6 @@ p.summary2 {
   }
 
   p.summary {
-    font-family: "lato", sans-serif;
     color: rgb(87 82 82);
     padding-top: 3%;
     font-weight: 700;
@@ -694,14 +763,10 @@ p.summary2 {
 
   .sub-second-section {
     width: 100%;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: rgba(57, 60, 67, 0.7);
     padding-inline: 10%;
-    margin-left: 5%;
-    gap: 3%;
-    margin-top: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
     height: 100%;
     transition: all 350ms;
     transform: scale(1);
@@ -720,11 +785,10 @@ p.summary2 {
 
   .sub-second-section h3 {
     color: #ec5242;
-    font-family: "lato", sans-serif;
+    text-align: center;
   }
 
   .sub-second-section p {
-    font-family: "lato", sans-serif;
     color: white;
     font-size: 12px;
     line-height: 1.5;
@@ -749,10 +813,24 @@ p.summary2 {
     grid-row-gap: 15px;
   }
 
-  .sub-third-section img {
-    width: 30%;
-    height: 90%;
+  #speaker-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
+    z-index: 1;
+    bottom: 0;
+    top: 10px;
+    position: inherit;
+    left: 6px;
+  }
+
+  .spkr {
+    background-image: url(./Images/checkbox.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    position: relative;
   }
 
   .speaker-detail {
@@ -795,6 +873,11 @@ p.summary2 {
     width: 5%;
   }
 
+  .conference-year {
+    left: 40%;
+    top: 6%;
+}
+
   .footer2 img {
     width: 20%;
   }
@@ -809,5 +892,30 @@ p.summary2 {
 
   p.summary2 {
     margin-inline: 10%;
+  }
+
+  .partner-header1 {
+    display: none;
+  }
+
+  .img-list1 {
+    display: none;
+  }
+
+  .footer21 {
+    display: flex;
+    background-color: #444141;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-inline: 15%;
+    gap: 6%;
+  }
+
+  .footer21 img {
+    width: 20%;
+  }
+
+  .footer21 p {
+    color: #f3f3f3;
   }
 }

@@ -5,7 +5,7 @@
 
 ## <h1> Module one capstone Project</h1>
 This is the final version of my project for the 5th week, Module 1. In this project I used all the knowledge I gathered from past weeks, and blended them nicely. 
-Link to [video documentation](https://www.loom.com/share/8673649788154cf08cb1ce5393da630b).
+Link to [video documentation](https://www.loom.com/share/b2f16e513e09462eaeb810cc29959669).
 It is a website for a fictitious, upcoming Health conference in Africa. Visit the Live Link to view the website.
 
 ## Setup
@@ -27,7 +27,7 @@ VSCode or any other equivalent code editor
 Node package manager
 
 # Live Demo:
-[Live Demo Link](https://github.com/ekenecf/ekenemicroverse.github.io)
+[Live Demo Link](https://ekenecf.github.io/ekenemicroverse.github.io/)
 
 👤 **Author1**
 - [@githubhandle](https://github.com/ekenecf)

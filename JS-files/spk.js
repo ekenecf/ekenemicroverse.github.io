@@ -40,14 +40,20 @@ const FeatureArray = [
 ];
 
 thirdSection.innerHTML = '';
-for (let i = 0; i < FeatureArray.length; i += 1) {
+FeatureArray.map((speaker) => {
   thirdSection.innerHTML = `${thirdSection.innerHTML}
-   <div class= "speaker-detail"> <img src="${FeatureArray[i].imageLink}">
-     <div class="speakers">
-        <h3>${FeatureArray[i].Header}</h3>
-        <small>${FeatureArray[i].introInfo}</small>
+   <div class= "speaker-detail"> 
+       <div class="spkr">
+       <div id="speaker-img">
+          <img src="${speaker.imageLink}" alt="speaker img"/>
+       </div>
+
+          </div>
+          <div class="speakers">
+        <h3>${speaker.Header}</h3>
+        <small>${speaker.introInfo}</small>
         <hr>
-        <p>${FeatureArray[i].detail}</p>
-      </div> 
+        <p>${speaker.detail}</p>
+       </div> 
     <div>`;
-}
+});
