@@ -312,6 +312,11 @@ p.summary {
   width: 75%;
 }
 
+.footer21 img {
+  width: 40%;
+  height: 40px;
+}
+
 .Third-section2-img1 img:hover {
   opacity: 1;
 }
@@ -562,11 +567,6 @@ p.summary2 {
 .img-list1 li {
   list-style: none;
   width: 100%;
-}
-
-.footer21 img {
-  width: 40%;
-  height: 40px;
 }
 
 .footer21 p {
@@ -876,7 +876,7 @@ p.summary2 {
   .conference-year {
     left: 40%;
     top: 6%;
-}
+  }
 
   .footer2 img {
     width: 20%;

@@ -56,4 +56,4 @@ FeatureArray.map((speaker) => {
         <p>${speaker.detail}</p>
        </div> 
     <div>`;
-})();
+    return(speaker)});
